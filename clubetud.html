@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Inscription à un club étudiant</title>
+  </head>
+  <body>
+    <h2>Inscription à un club étudiant</h2>
+
+    <form>
+      <label>Nom :</label>
+      <input type="text" name="nom" />
+      <br /><br />
+
+      <label>Prénom :</label>
+      <input type="text" name="prenom" />
+      <br /><br />
+
+      <label>Email :</label>
+      <input type="email" name="email" />
+      <br /><br />
+
+      <label>Téléphone :</label>
+      <input type="tel" name="telephone" />
+      <br /><br />
+
+      <label>Date de naissance :</label>
+      <input type="date" name="date_naissance" />
+      <br /><br />
+
+      <label>Niveau :</label>
+      <select name="niveau">
+        <option>1ère année</option>
+        <option>2ème année</option>
+        <option>3ème année</option>
+        <option>4ème année</option>
+      </select>
+      <br /><br />
+
+      <label>Genre :</label>
+      <input type="radio" name="genre" value="homme" /> Homme
+      <input type="radio" name="genre" value="femme" /> Femme <br /><br />
+
+      <label>Activités préférées :</label><br />
+      <input type="checkbox" name="activite" value="sport" /> Sport
+      <input type="checkbox" name="activite" value="informatique" />
+      Informatique
+      <input type="checkbox" name="activite" value="culture" /> Culture
+      <input type="checkbox" name="activite" value="musique" /> Musique
+      <br /><br />
+
+      <label>Message :</label><br />
+      <textarea name="message" rows="5" cols="40"></textarea>
+      <br /><br />
+
+      <input type="submit" value="Inscription" />
+      <input type="reset" value="Réinitialiser" />
+    </form>
+  </body>
+</html>

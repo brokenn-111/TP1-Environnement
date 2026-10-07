@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact</title>
+  </head>
+  <body>
+    <header>
+      <h1>Contactez-nous</h1>
+    </header>
+    <main>
+      <form>
+        <label for="nom"> Nom : </label>
+
+        <input
+          type="text"
+          id="nom"
+          name="nom"
+          placeholder="Votre nom"
+          required
+        />
+
+        <br /><br />
+
+        <label for="email"> Email : </label>
+
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="exemple@email.com"
+          required
+        />
+
+        <br /><br />
+        <label for="telephone"> Téléphone : </label>
+
+        <input type="tel" id="telephone" name="telephone" />
+
+        <br /><br />
+
+        <label for="message"> Message : </label>
+
+        <br />
+
+        <textarea
+          id="message"
+          name="message"
+          rows="6"
+          cols="40"
+          placeholder="Votre message"
+          required
+        ></textarea>
+
+        <br /><br />
+
+        <button type="submit">Envoyer</button>
+
+        <button type="reset">Effacer</button>
+      </form>
+    </main>
+  </body>
+</html>

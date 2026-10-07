@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>inscription</title>
+  </head>
+  <body>
+    <header>
+      <h1>Inscription</h1>
+    </header>
+    <main>
+      <form>
+        <label for="nom"> Nom : </label>
+
+        <input
+          type="text"
+          id="nom"
+          name="nom"
+          placeholder="Votre nom"
+          required
+        />
+
+        <br /><br />
+
+        <label for="prenom"> Prénom : </label>
+
+        <input
+          type="text"
+          id="prenom"
+          name="prenom"
+          placeholder="Votre prénom"
+          required
+        />
+
+        <br /><br />
+
+        <label for="email"> Email : </label>
+
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="exemple@email.com"
+          required
+        />
+
+        <br /><br />
+        <label for="password"> Mot de passe : </label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Votre mot de passe"
+          required
+        />
+        <label for="date_naissance"> Date de naissance : </label>
+        <input type="date" id="date_naissance" name="date_naissance" />
+        <label for="genre"> Genre : </label>
+        <select id="genre" name="genre">
+          <option value="femme">Femme</option>
+          <option value="homme">Homme</option>
+          <option value="autre">Autre</option>
+        </select>
+        <label for="niveau_etudes"> Niveau d'études : </label>
+        <select id="niveau_etudes" name="niveau_etudes">
+          <option value="bac">Bac</option>
+          <option value="bac+2">Bac +2</option>
+          <option value="bac+3">Bac +3</option>
+          <option value="bac+5">Bac +5</option>
+        </select>
+        <label for="technologies"> Technologies maîtrisées : </label>
+        <input type="checkbox" id="html" name="technologies" value="html" />
+        <input type="checkbox" id="css" name="technologies" value="css" />
+        <input
+          type="checkbox"
+          id="javascript"
+          name="technologies"
+          value="javascript"
+        />
+        <br /><br />
+        <label for="message"> Message : </label>
+        <br />
+        <textarea
+          id="message"
+          name="message"
+          rows="6"
+          cols="40"
+          placeholder="Votre message"
+          required
+        ></textarea>
+        <br /><br />
+        <button type="submit">S'inscrire</button>
+        <button type="reset">Effacer</button>
+      </form>
+    </main>
+  </body>
+</html>

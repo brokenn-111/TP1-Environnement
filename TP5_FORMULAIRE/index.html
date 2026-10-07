@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Formulaire HTML</title>
+  </head>
+
+  <body>
+    <h1>Mon premier formulaire</h1>
+
+    <!-- <form>
+      <label for="nom"> Nom : </label>
+
+      <input type="text" id="nom" />
+      <button>Envoyer</button>
+    </form> -->
+    <form>
+      <label for="nom"> Nom : </label>
+
+      <input
+        type="text"
+        id="nom"
+        name="nom"
+        placeholder="Entrez votre nom"
+        required
+      />
+
+      <br /><br />
+
+      <label for="prenom"> Prénom : </label>
+
+      <input type="text" id="prenom" name="prenom" />
+      <label for="email"> Email : </label>
+
+      <input type="email" id="email" name="email" />
+      <label for="password"> Mot de passe : </label>
+
+      <input type="password" id="password" name="password" />
+      <p>Genre :</p>
+      <label>
+        <input type="radio" name="genre" value="femme" />
+
+        Femme
+      </label>
+
+      <label>
+        <input type="radio" name="genre" value="homme" />
+
+        Homme
+      </label>
+      <p>Technologies maîtrisées :</p>
+
+      <label>
+        <input type="checkbox" name="technologies" value="html" />
+
+        HTML
+      </label>
+
+      <label>
+        <input type="checkbox" name="technologies" value="css" />
+
+        CSS
+      </label>
+
+      <label>
+        <input type="checkbox" name="technologies" value="javascript" />
+
+        JavaScript
+      </label>
+      <label for="niveau"> Niveau : </label>
+
+      <select id="niveau" name="niveau">
+        <option value="1">1ère année</option>
+
+        <option value="2">2ème année</option>
+
+        <option value="3">3ème année</option>
+      </select>
+      <label for="message"> Message : </label>
+
+      <br />
+
+      <textarea
+        id="message"
+        name="message"
+        rows="5"
+        cols="40"
+        placeholder="Écrivez votre message"
+      >
+      </textarea>
+      <label for="date"> Date de naissance : </label>
+
+      <input type="date" id="date" name="date" />
+      <label for="telephone"> Téléphone : </label>
+
+      <input
+        type="tel"
+        id="telephone"
+        name="telephone"
+        placeholder="XX XXX XXX"
+      />
+      <button type="submit">Envoyer</button>
+
+      <button type="reset">Réinitialiser</button>
+    </form>
+  </body>
+</html>
