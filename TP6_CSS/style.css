@@ -1,0 +1,107 @@
+body {
+  background-color: #f5f7fa;
+  font-family:
+    sf mono,
+    sans-serif;
+  color: #222;
+  line-height: 1.6;
+}
+h1 {
+  color: blue;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+p {
+  color: gray;
+  font-size: 18px;
+  line-height: 1.6;
+}
+.description {
+  color: darkgray;
+  font-size: 18px;
+}
+#titre-principal {
+  color: darkblue;
+}
+.carte {
+  padding: 20px;
+}
+h2 {
+  color: darkblue;
+}
+header {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  min-height: 30vh;
+}
+article {
+  padding: 20px;
+  border: 1px solid #dddddd;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #dddddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+}
+nav {
+  background-color: #222;
+  padding: 15px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+nav a:hover {
+  color: #00aaff;
+}
+main {
+  padding: 30px;
+}
+section {
+  margin-bottom: 30px;
+}
+section {
+  margin-bottom: 30px;
+}
+aside {
+  background-color: #eeeeee;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+}
+ul {
+  padding-left: 20px;
+}
+li {
+  margin-bottom: 10px;
+}
+.card p {
+  color: #555;
+}
+.card h3 {
+  color: #1e3a8a;
+}
+* {
+  box-sizing: border-box;
+} 
+
+/* Configuration générale
